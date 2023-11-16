@@ -7,7 +7,7 @@ void main() {
   dynamic errorMessage = "mensaje de error";
   errorMessage = 404;
   errorMessage = true;
-  errorMessage = [9,8,7,6];
+  errorMessage = [9,8,7,0];
 
   print("""
   $numero
