@@ -8,6 +8,6 @@ void main (){
   print ("La gatita ${gatos["nombre"][0]} tiene ${gatos["edad"][0]} años" );
   print ("y pesa ${gatos["peso"][0]}");
 
-  print ("el señor ${gatos}["nombre"}[2] pesa ${gatos}["peso"][2]");
+  print ("el señor ${gatos["nombre"][2]} pesa ${gatos["peso"][2]}" );
 
 }
