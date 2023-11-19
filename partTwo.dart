@@ -13,4 +13,13 @@ void main() {
 
   print('Back: ${pokemon['sprites'][2]}');
   print('Front: ${pokemon['sprites'][1]}');
+
+  print ('is Alive?: ${pokemon['isAlive']}');
+
+  print ("abilidades : ${pokemon['abilities']}");
+
+  print ("La salud de ${pokemon["name"]} es ${pokemon["hp"]} hp");
+  print ("${pokemon["name"]} tiene la abilidad ${pokemon["abilities"]} y su salud es ${pokemon["hp"]}");
 }
+
+
